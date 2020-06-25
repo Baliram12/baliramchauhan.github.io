@@ -1,242 +1,566 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Resume Website</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" ></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" ></script>
-<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
-	<!------------------------------Header Section----------------------------->
-	<section id="header">
-		<div class="container text-center">
-			<div class="user-box">
-				<img src="img/profile.png">
-				<h1>Baliram Chauhan</h1>
-				<p>Freelancer Front End Developer</p>
-			</div>
-		</div>
-		<div class="scroll-btn">
-			<div class="scroll-bar"><a href="#top"><span></span>
-				
-			</div>
-			</div>
-		</section>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Techrishi</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
 
-	<!----------------------------Info section------------------------------------>
-	<section id="user-info">
-		<div class="nav-bar">
-		<nav class="navbar navbar-expand-lg">
-  <a class="navbar-brand" href="#"><img src="img/code.jpg"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-  	<i class="fa fa-bars" ></i>
-  	</button>
-    <span class="navbar-toggler-icon"></span>
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+               <h1 style="color:rgb(43, 177, 219);">Techrishi</h1>
+               <br>
+                 
+                 <h4 style="color:rgb(43, 177, 219);"> <br>Infotech</h4>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ml-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ml-auto">
+                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Services">Services</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Team</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container">
+                <div class="masthead-subheading">Welcome To Our Techrishi Infotech!</div>
+                <div class="masthead-heading text-uppercase">It's Nice To Meet You</div>
+                <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
+            </div>
+        </header>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item ">
-        <a class="nav-link" href="#">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#About Me">About Me</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#Resume">Resume</a>
-      </li>
-       <li class="nav-item">
-        <a class="nav-link" href="#Services">Services</a>
-
-      </li>
-       <li class="nav-item">
-        <a class="nav-link" href="#Contact">Contact</a>
-      </li>
-    </ul>
-    
-  </div>
-</nav>
-</div>
-
-
-
-<!-------------------------------About--------------------------->
-<div class="about container" id="about">
-	<div class="row">
-		<div class="col-md-6 text-center">
-			<img src="img/bali1.jpg" class="profile-img">
-		</div>
-		<div class="col-md-6">
-			<h3>Who am I??</h3>
-			<p>Today I choose life. Every morning when I wake up I can choose joy, happiness, negativity, pain... To feel the freedom that comes from being able to continue to make mistakes and choices - today I choose to feel life, not to deny my humanity but embrace it.
-			</p>
-			<div class="skill-bar">
-				<p>Adobe Photoshop</p>
-				<div class="progress">
-					<div class="progress-bar" style="width: 80%;">80%</div>
-			
-				</div>
-				<div class="skill-bar">
-				<p>C Programming</p>
-				<div class="progress">
-					<div class="progress-bar" style="width: 75%;">75%</div>
-			
-				</div>
-				<div class="skill-bar">
-				<p>Java Programming</p>
-				<div class="progress">
-					<div class="progress-bar" style="width: 70%;">70%</div>
-			
-				</div>
-				<div class="skill-bar">
-				<p>C++ Programming</p>
-				<div class="progress">
-					<div class="progress-bar" style="width: 65%;">65%</div>
-			
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-</div>
-</section>
-  <!-------------------------------Social-------------------------->
-  <div class="social-icon">
-  	<ul>
-  		<a href="#"><li><i class="fa fa-linkedin"></i></li></a>
-  		<a href="https://twitter.com/Baliram46105483"><li><i class="fa fa-twitter"></i></li></a>
-  		<a href="#"><li><i class="fa fa-github"></i></li></a>
-  		<a href="#"><li><i class="fa fa-medium"></i></li></a>
-  		<a href="https://www.facebook.com/baliram.chauhan.16"><li><i class="fa fa-facebook"></i></li></a>
-  	</ul>
-  </div>
-</div>
-<!-------------------------Resumw----------------------------------------->
-<div class="resume" id="resume">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-6">
-				<h3 class="text-center">My Experiences</h3>
-				<ul class="timeline">
-					<li><h4><span>2019 -</span>Front End Developer</h4>
-						<p>KTS InfoTech is a company having 18+ years of proven experience in design and development of high quality innovative software products. 
-							<br>
-							<b>Company</b>-KTS InfoTech Pvt.Ltd<br>
-							<b>Duration</b>[2019]<br>
-							<b>Location</b>-Pala India<br>
-						</p>
-					</li>
-					<li><h4><span>2019 -</span>Front End Developer</h4>
-						<p>A freelancer or freelance worker, is a term commonly used for a person who is self-employed and is not necessarily committed to a particular employer long-term
-							<br>
-							<b>Company</b>-Freelancer  pvt ltd<br>
-							<b>Duration</b>[2014-2018]<br>
-							<b>Location</b>-Pala India<br>
-						</p>
-					</li>
-					<li><h4><span>2019 -Front End Developer</span></h4>
-						<p>
-							<br>
-							<b>Company</b>-xyz company pvt ltd<br>
-							<b>Duration</b>[2018]]<br>
-							<b>Location</b>-Pala India<br>
-						</p>
-					</li>
-				</ul>
-			</div>
-			<div class="col-md-6">
-				<h3 class="text-center">My Education</h3>
-				<ul class="timeline">
-					<li><h4><span>2019 -</span>Bachelor of Technology</h4>
-						<p>
-							<br>
-							<b>Institute</b>-College Of Engineering Kidangoor<br>
-							<b>Session</b>-[2015-2019]<br>
-							<b>Aggregate</b>-65%<br>
-						</p>
-					</li>
-					<li><h4><span>2019 -</span>Intermediate (HSC)</h4>
-						<p>
-							<br>
-							<b>Company</b>-Goverment Jubilee Inter College ,Gorakhpur<br>
-							<b>Duration</b>-[2014]<br>
-							<b>Location</b>-Gorakhpur,India<br>
-						</p>
-					</li>
-					<li><h4><span>2019 -High School (SSC)</span></h4>
-						<p>
-							<br>
-							<b>School</b>-RSM Senior Secondery School Gorakhpur <br>
-							<b>Session</b>-[2012]<br>
-							<b>Location</b>-Gorakhpur India<br>
-						</p>
-					</li>
-				</ul>
-			</div>
-
-		</div>
-	</div>
-</div>
-
-
-<!-----------------------------------------Services----------------------------------------------------->
-<div class="Services" id="Services">
-	<div class="container">
-		<h1 class="text-center">My Offered Services</h1>
-		<p class="text-center">We provide Multiple Services like Web Development , Android application,<br>And Offered Multiple Technical Device to our Customer.</p>
-
-		<div class="row">
-			<div class="col-md-4">
-				<div class="Services-box">
-					<i class="fa fa-rocket"></i><span>Grapics Design</span>
-					<p>Gyan InfoTech is a multi-disciplinary graphic design and communications firm located in India. We are a small committed team specializing in brand strategy and implementation for cities, communities, destinations and places.<br> Our firm helps organizations move forward by bringing focus to their brand through civic engagement and a strategic approach to our creative process.<br> We clarify and bring focus to goals and objectives, and capture brand essence in authentic and lasting ways. <br>We meet marketing and communication goals with creative solutions that meet business objectives and add long-term value. <br>Our artists and graphic will give you the best brochures, flyers, print ads, direct mailers, catalogue design, book covers and posters.</p>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="Services-box">
-					<i class="fa fa-android"></i><span>Android Development</span>
-					<p>The Android platform is growing at an astounding rate. Currently over 80% of the world's smartphones run on the Android platform.<br> It is crucial that your app is optimised for the hundreds of varying devices and screen sizes. <br>It is crucial that your app is optimised for the hundreds of varying devices and screen sizes.<br> Freshdesign Winfy love the Android platform and are fanatical about utilizing all its functionalities to create the highest quality custom-made apps.<br> We make sure to keep abreast of all the latest Android technologies and offer our services across all phones, and tablets.</p>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="Services-box">
-					<i class="fa fa-linux"></i><span>Linux</span>
-					<p> Gyan InfoTech offers complete range of GNU / Linux services and solutions in India, from simple Mail server installations to most complex Firewall & VPN setup. <br>Whether your requirements are for planning of GNU / Linux activities, installations, <br>technical support or consultancy we are the most trusted company for all your requirements. <br>Our core team of GNU / Linux consultants, system engineers and developers have the answer to all your open source requirements. <br>Organizations today are facing a critical situation when it comes to security of their business data. <br>Our GNU / Linux solution concentrates on giving you a stable and secure solution will help take the pressure of maintaining business operations off your shoulders.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-
-<!----------------------------Contact-------------------------->
-<div class="Contact" id="Contact">
-	<div class="container text-center"><h1>Contact Me</h1>
-    <p class="text-center">Whether you are looking for information on our services, interested to learn more about our strategic partners or the latest in value-added solutions, we would like to hear from you </p>
-    <div class="row">
-    	<div class="col-md-4">
-    		<i class="fa fa-phone"></i>
-    		<p>+91 7012957382</p>
-    	</div>
-    	<div class="col-md-4">
-    		<i class="fa fa-envelope"></i>
-    		<p>balichauhan1997@gmail.com</p>
-    	</div>
-    	<div class="col-md-4">
-    		<i class="fa fa-phone"></i>
-    		<p>+91 7012957382</p>
-    	</div>
+        <!---About--->
+        <div class="aboutus-section" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="aboutus">
+                        <h2 class="aboutus-title">About Us</h2>
+                        <p class="aboutus-text">A solid track record of over a decade in software development by serving   customers globally with an impeccable niche of perfection which has added several proud feathers in our cap, Techrishi has been the most outstanding company in a couple of years with maximum Coldfusion projects in the world. We have a strict set of principles that we follow to attain the perfection and make our clients grow every day.</p>
+                        <p class="aboutus-text">Techrishi is an established global enterprise. With more than a decade of experience in helping businesses grow, we have served more than  clients globally and achieved many milestones. We help you enhance your business value and boost ROI. More than anything, our company is committed to perfection which finally leads to long term relationships.</p>
+                        <a class="aboutus-more" href="#">read more</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="aboutus-banner">
+                        <img src="assets\img\banner.svg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-5 col-sm-6 col-xs-12">
+                    <div class="feature">
+                        <div class="feature-box">
+                            <div class="clearfix">
+                                <div class="iconset">
+                                    <span class="glyphicon glyphicon-cog icon"></span>
+                                </div>
+                                <div class="feature-content">
+                                    <h4>WHAT OUR SKILLS ARE</h4>
+                                     <img src="https://img.icons8.com/nolan/64/python.png"/><h2 class="aboutus-title">Python</h2>
+                                    <div class="progress">
+                                    <div class="progress-bar" style="width: 90%;">90%</div>
+                                     </div>
+                                     <br>
+                                     <img src="https://img.icons8.com/color/48/000000/php.png"/><h2 class="aboutus-title">PHP</h2>
+                                      <div class="progress">
+                                    <div class="progress-bar" style="width: 80%;">80%</div>
+                                     </div>
+                                     <br>
+                                     <img src="https://img.icons8.com/nolan/64/angularjs.png"/><h2 class="aboutus-title">AngularJS</h2>
+                                      <div class="progress">
+                                    <div class="progress-bar" style="width: 75%;">75%</div>
+                                     </div>
+                                     <br>
+                                    
+                                      <img src="https://img.icons8.com/nolan/64/web-design.png"/><h2 class="aboutus-title"> UI/UX</h2>
+                                      <div class="progress">
+                                    <div class="progress-bar" style="width: 95%;">95%</div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <button type="button" class="btn btn-primary">
-    	<i class="fa fa-download"></i>Resume</button>
-    <button type="button" class="btn btn-primary">
-    	<i class="fa fa-rocket"></i>Hire Me</button>
+    <!-----------------------------------------Services----------------------------------------------------->
+<div class="Services" id="Services">
+    <div class="container">
+        <h1 class="text-center">My Offered Services</h1>
+         <div class="row">
+              <div class="col-md-4">
+                <div class="Services-box"><img src="https://img.icons8.com/nolan/64/network.png"/><span>Network Intelligence</span>
+                    <p>Build a database of interconnected companies and individuals to uncover the highest quality connections and shortest direct-path to solve business needs.TalbyTeal Fluid Image Service Highlights
+                    Our Network Intelligence effort at Rho AI has resulted in a large graph database of interconnected companies and individuals. The data come from many sources, including publicly available news, funding event notices for private companies, business social network profiles, company websites, online company profiles, and more.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="Services-box">
+                    <img src="https://img.icons8.com/clouds/100/000000/nui2.png"/><span>Natural Language Processing</span>
+                    <p>Develop insights from unstructured language data and automate document analysis.
+TalbyTeal Fluid Image Service Highlights Automate the process of extracting relevant and nuanced information from documents, both digital and scanned, into a structured, organized dataset.Classify documents by use case or topic using visual cues and lexical features.Associate and link updated versions of previous documents to create a lineage of version history and identify specific differences between versions.
+</p>
+ </div>
+    </div>
+           <div class="col-md-4">
+                <div class="Services-box">
+                    <img src="https://img.icons8.com/fluent/48/000000/decision-making.png"/><span>Decision Modeling</span>
+                    <p> Customized dashboards to understand business performance and help make better, real-time decision OffcellTeal Fluid Image Service Highlights Decision support tools that provide descriptive analytics, graphical visualization, scenario modeling, and sensitivity analysis to make data-driven decisions.
+                    Consolidate various streams of data into a single source of truth supported by agreed-upon methodologies, allowing you to perform rigorous decision analysis with team consensus.Clear, graphical approach to understand possible scenarios, updated live at your optimal frequency.</p>
+                </div>
+            </div>
+             <div class="col-md-4">
+                <div class="Services-box">
+                 <img src="https://img.icons8.com/ios/50/000000/big-data.png"/><span>Structured Data Parsing</span>
+                    <p> Identify and extract table values within documents, both digital and scanned, with accuracy and contextual understanding.OffcellTeal Fluid Image Service Highlights Tools and techniques for extracting and organizing data from all types of document varieties.Incorporates a robust and tested generic extraction technology with client-specific, custom logic to provide a truly end-to-end automated solution.Build our solutions into your existing infrastructure or get the information you need as a data-as-a-service solution.
 
-	</div>
-	<div class="footer text-center">
-		<p>Made With<i class="fa fa-heart-o"></i>by Baliram chauhan</p>
-	</div>
+.</p>
+                </div>
+            </div>
+             <div class="col-md-4">
+                <div class="Services-box">
+                    <img src="https://img.icons8.com/emoji/48/000000/spider-web.png"/><span>Web Crawling</span>
+                    <p> Robust and large scale web crawling to build datasets from a wide variety of sources with pinpoint accuracy.LoroTeal Fluid Image Service Highlights Crawl websites to collect data on organizations, products, prospects, people, events, news, and more.Build datasets on the fly with up-to-date information while monitoring web pages for any relevant changes.With years of experience crawling thousands of websites, we’ve pushed the envelope beyond “site-specific” crawlers to intelligent and flexible crawlers, capable of combing through diverse websites without the need for site-by-site logic.
+                    Our crawlers are particularly good at handling websites that are notoriously difficult due to CAPTCHA’s, logins, anti-crawling measures, and other limitations.</p>
+                </div>
+            </div>
+             <div class="col-md-4">
+                <div class="Services-box">
+                    <img src="https://img.icons8.com/nolan/48/engineering.png"/><span>Software Engineering</span>
+                    <p> Design and develop enterprise-grade products that exceed 'the spec'.TalbyTeal Fluid Image Service Highlights Design, build, and deploy based on software engineering best practices and proven solutions.
+                   Stay ahead of the curve by leveraging our cross-competency approach to evaluating technologies and architectures.We constantly pressure test the latest technologies and benchmark against proven solutions to ensure we're always keeping up with the best-in-class paradigms, without succumbing to the constant stream of 'shiny new tech objects'.
+                   With years of experience developing both real-time and highly-scalable systems, we’ve developed internal capabilities that allow us to quickly iterate and produce best-in-class products that meet customer needs.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-</body>
+
+ <!-------------------------------Social-------------------------->
+  <div class="social-icon">
+    <ul>
+        <a href="https://www.linkedin.com/in/baliram-chauhan-649793185"><li><i class="fab fa-linkedin"></i></li></a>
+        <a href="https://twitter.com/Baliram_Ch"><li><i class="fab fa-twitter"></i></li></a>
+       
+        <a href="https://github.com/Baliram12"><li><i class="fab fa-github"></i></li></a>
+        <a href="#"><li><i class="fab fa-medium"></i></li></a>
+        <a href="https://www.facebook.com/baliram.chauhan.16"><li><i class="fab fa-facebook-f"></i></li></a>
+    </ul>
+  </div>
+</div>
+        <!-- Portfolio Grid-->
+        <section class="page-section bg-light" id="portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Portfolio</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/01-thumbnail.jpg" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Threads</div>
+                                <div class="portfolio-caption-subheading text-muted">Illustration</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/02-thumbnail.jpg" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Explore</div>
+                                <div class="portfolio-caption-subheading text-muted">Graphic Design</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/03-thumbnail.jpg" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Finish</div>
+                                <div class="portfolio-caption-subheading text-muted">Identity</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/04-thumbnail.jpg" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Lines</div>
+                                <div class="portfolio-caption-subheading text-muted">Branding</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/05-thumbnail.jpg" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Southwest</div>
+                                <div class="portfolio-caption-subheading text-muted">Website Design</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/06-thumbnail.jpg" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Window</div>
+                                <div class="portfolio-caption-subheading text-muted">Photography</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Team-->
+        <section class="page-section bg-light" id="team">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
+                   
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="" />
+                            <h4>Baliram Chauhan</h4>
+                            <p class="text-muted">Data Engineer</p>
+                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/2.png" alt="" />
+                            <h4>Littin Rajan</h4>
+                            <p class="text-muted"> Senior Software Developer </p>
+                            <a class="btn btn-dark btn-social mx-2" href="https://twitter.com/littinrajan"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/littin.rajan"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/littinrajan/?originalSubdomain=in!"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="" />
+                            <h4>Diana Petersen</h4>
+                            <p class="text-muted">Lead Developer</p>
+                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <!-- Clients-->
+        <div class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/envato.jpg" alt="" /></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/designmodo.jpg" alt="" /></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/themeforest.jpg" alt="" /></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/creative-market.jpg" alt="" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact-->
+        <section class="page-section" id="contact">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Contact Us</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+                <form id="contactForm" name="sentMessage" novalidate="novalidate">
+                    <div class="row align-items-stretch mb-5">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input class="form-control" id="name" type="text" placeholder="Your Name *" required="required" data-validation-required-message="Please enter your name." />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" id="email" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address." />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="form-group mb-md-0">
+                                <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" required="required" data-validation-required-message="Please enter your phone number." />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group form-group-textarea mb-md-0">
+                                <textarea class="form-control" id="message" placeholder="Your Message *" required="required" data-validation-required-message="Please enter a message."></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div id="success"></div>
+                        <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+     
+
+
+
+     <div class="footer text-center">
+        <p>Made With<i class="fab fa-heart-o"></i>by Baliram chauhan</p>
+    </div>
+</div>
+        <!-- Portfolio Modals-->
+        <!-- Modal 1-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Project Name</h2>
+                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/01-full.jpg" alt="" />
+                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <ul class="list-inline">
+                                        <li>Date: January 2020</li>
+                                        <li>Client: Threads</li>
+                                        <li>Category: Illustration</li>
+                                    </ul>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 2-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Project Name</h2>
+                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/02-full.jpg" alt="" />
+                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <ul class="list-inline">
+                                        <li>Date: January 2020</li>
+                                        <li>Client: Explore</li>
+                                        <li>Category: Graphic Design</li>
+                                    </ul>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 3-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Project Name</h2>
+                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/03-full.jpg" alt="" />
+                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <ul class="list-inline">
+                                        <li>Date: January 2020</li>
+                                        <li>Client: Finish</li>
+                                        <li>Category: Identity</li>
+                                    </ul>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 4-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Project Name</h2>
+                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/04-full.jpg" alt="" />
+                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <ul class="list-inline">
+                                        <li>Date: January 2020</li>
+                                        <li>Client: Lines</li>
+                                        <li>Category: Branding</li>
+                                    </ul>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 5-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Project Name</h2>
+                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/05-full.jpg" alt="" />
+                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <ul class="list-inline">
+                                        <li>Date: January 2020</li>
+                                        <li>Client: Southwest</li>
+                                        <li>Category: Website Design</li>
+                                    </ul>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 6-->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Project Name</h2>
+                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/06-full.jpg" alt="" />
+                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <ul class="list-inline">
+                                        <li>Date: January 2020</li>
+                                        <li>Client: Window</li>
+                                        <li>Category: Photography</li>
+                                    </ul>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Contact form JS-->
+        <script src="assets/mail/jqBootstrapValidation.js"></script>
+        <script src="assets/mail/contact_me.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
 </html>
